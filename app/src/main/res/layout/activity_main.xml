@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context="com.example.bluetoothlast.com.example.BluetoothServer.MainActivity">
+
+    <TextView
+        android:id="@+id/valoreUmiditaSensore"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="116dp"
+        android:layout_toEndOf="@+id/temperaturaSensore"
+        android:text="valore" />
+
+    <TextView
+        android:id="@+id/umiditaSensore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="176dp"
+        android:text="Sensore Umidita' :" />
+
+    <Button
+        android:id="@+id/MettitiInAscolto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="486dp"
+        android:text="Mettiti in Ascolto" />
+
+    <Button
+        android:id="@+id/InviaDati"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="423dp"
+        android:layout_marginEnd="246dp"
+        android:text="Invia Dati" />
+
+    <TextView
+        android:id="@+id/Stato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="575dp"
+        android:text="Non connesso"
+        android:textSize="14sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/luceSensore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="105dp"
+        android:text="Sensore Torbidita' :" />
+
+    <TextView
+        android:id="@+id/StatoConnessioneTW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="544dp"
+        android:text="Stato connessione" />
+
+    <TextView
+        android:id="@+id/ListaSensori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="73dp"
+        android:text="ListaSensori" />
+
+    <TextView
+        android:id="@+id/temperaturaSensore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="140dp"
+        android:text="Sensore Temperatura :" />
+
+    <TextView
+        android:id="@+id/valoreTemperaturaSensore"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="116dp"
+        android:layout_toEndOf="@+id/temperaturaSensore"
+        android:text="valore" />
+
+    <TextView
+        android:id="@+id/valoreLuceSendore"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="201dp"
+        android:layout_marginTop="105dp"
+        android:text="valore" />
+</RelativeLayout>
