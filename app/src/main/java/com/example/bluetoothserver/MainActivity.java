@@ -250,6 +250,12 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     }
 
     @Override
+    protected void onStart() {
+        super.onStart();
+        checkBTPermission();
+    }
+
+    @Override
     protected void onPause() {
         super.onPause();
         if(isLightSensorAviable){
